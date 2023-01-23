@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhaka Naka Production</title>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap" rel="stylesheet">
+    <!-- tatlwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primaryColor: '#FECC02',
+                        lightBlack: '#131313',
+                        darkGray: '#4E4E4E',
+                    },
+                    fontFamily: {
+                        primary: ['Bebas Neue', 'cursive'],
+                        secondary: ['Montserrat', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="">
+        <nav class="font-primary w-full   h-20  bg-white  fixed top-0 right-0 left-0">
+            <div class="md:flex justify-between mx-auto items-center w-full max-w-[1200px] p-4">
+                <div>
+                    <a class="text-3xl font-bold" href="/">Jhaka Naka Production</a>
+                </div>
+                <div class="flex gap-5 items-center">
+                    <ul class="flex gap-5 text-lg">
+                        <li><a href="">About US</a> </li>
+                        <li><a href="">Our Movie</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ul>
+                    <button class="bg-primaryColor border-2 border-lightBlack text-lg h-11 py-2 px-4">Buy
+                        Ticket</button>
+                </div>
+            </div>
+        </nav>
+        <!-- banner -->
+        <div class="bg-[url('./images/banner.jpg')] bg-no-repeat bg-cover h-screen pt-20 font-primary ">
+            <div class="w-full max-w-[1200px] mx-auto p-4 flex items-center h-[100%]">
+                <div class="w-full max-w-[550px]">
+                    <h2 class="text-xl text-white">Movie production studio</h2>
+                    <h1 class="text-7xl text-white">Films MAde to</h1>
+                    <h1 class="text-7xl text-primaryColor mb-5">Perfection</h1>
+                    <p class="font-secondary text-base text-white">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    <button class="h-14 text-lg text-white border-2 border-white py-4 px-5 mt-10">Discover More</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main section -->
+    <main class="">
+        <section class="w-full max-w-[1200px] p-4 md:my-32  mx-auto font-primary">
+            <div class="border-2 border-black p-4">
+                <div class="md:flex md:gap-16 items-center ">
+                    <div
+                        class="bg-[url('./images/camera-man.jpg')] h-[470px] w-full max-w-[530px] bg bg-cover flex justify-center items-end mb-16 relative -z-50">
+                        <div class="bg-white shadow rounded-xl max-w-[450px] absolute -bottom-8">
+                            <h1 class="font-primary text-3xl  py-4 px-8  text-center">23 YEARS of EXPERIENCE</h1>
+                        </div>
+
+                    </div>
+                    <div class="">
+                        <h3 class="text-base ">about us</h3>
+                        <h1 class="text-7xl mt-3">FIlming Experience</h1>
+                        <h1 class="text-7xl mb-3">Just Got better</h1>
+                        <p class="font-secondary text-base">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Quia, dignissimos. Voluptatem consectetur quas doloribus cupiditate tempore nemo, neque nam
+                            possimus.</p>
+                        <button class="h-14 text-lg text-black border-2 border-black py-4 px-5 mt-10">Discover
+                            More</button>
+                    </div>
+
+                </div>
+                <div class="md:flex gap-14 mt-16">
+                    <div class="w-full md:max-w-[400px] mb-6">
+                        <div class="border-2 border-black mb-3">
+
+                        </div>
+                        <h1 class="text-6xl">OUR VISIOn</h1>
+                        <p class="font-secondary ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                    </div>
+                    <div class="w-full md:max-w-[400px] mb-6">
+                        <div class="border-2 border-black mb-3">
+
+                        </div>
+                        <h1 class="text-6xl">OUR Mission</h1>
+                        <p class="font-secondary ">Malesuada tempus et habitant nascetur porta nec. Fusce consequat
+                            risus per sollicitudin hendrerit suscipit convallis sociosqu.</p>
+                    </div>
+                    <div class="w-full md:max-w-[400px] mb-6">
+                        <div class="border-2 border-black mb-3">
+
+                        </div>
+                        <h1 class="text-6xl">OUR Motto</h1>
+                        <p class="font-secondary ">“We don’t make movies to make money, we make money to make more
+                            movies.”</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our movie -->
+        <section class="w-full bg-darkGray">
+            <div class="w-full max-w-[1200px] p-4 md:mb-32  mx-auto font-primary py-14">
+                <div class="flex justify-between items-center flex-wrap">
+                    <div>
+                        <h3 class="text-base text-white">OUR MOVIES</h3>
+                        <h1 class="text-7xl text-white">Movie collection</h1>
+                    </div>
+                    <div>
+                        <button class="h-14 text-lg text-white border-2 border-white py-4 px-5 ">See More Movies</button>
+                    </div>
+                </div>
+                <div class="flex gap-10 items-center flex-wrap gap-y-5 mt-8">
+                    <div class="border-2 border-white max-w-[260px] p-4 mx-auto">
+                        <img src="./images/inception.jpg" alt="">
+
+                    </div>
+                    <div class="border-2 border-white max-w-[260px] p-4 mx-auto">
+                        <img src="./images/fractured.jpg" alt="">
+
+                    </div>
+                    <div class="border-2 border-white max-w-[260px] p-4 mx-auto">
+                        <img src="./images/interstellar.jpg" alt="">
+
+                    </div>
+                    <div class="border-2 border-white max-w-[260px] p-4 mx-auto">
+                        <img src="./images/tenet.jpg" alt="">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services section -->
+        <section class="w-full max-w-[1200px] p-4 md:mb-32  mx-auto font-primary">
+            <h3 class="text-base text-black text-center">services</h3>
+                        <h1 class="text-7xl text-black text-center">what we offer</h1>
+            <div class="grid md:grid-cols-4 grid-cols-1 gap-12 mt-16">
+                <div class="border-2 border-black w-full max-w-[300px] flex flex-col justify-center items-center p-4 mx-auto">
+                    <img class="h-[70px] w-[70px]" src="./images/icons/camera.png" alt="">
+                    <h2 class="text-xl mt-4 mb-2 ">movies director</h2>
+                    <p class="text-xl font-secondary text-justify">Film production is the part of the movie-making process that most people likely think of when film creation is brought up. </p>
+                </div>
+                <div class="border-2 border-black w-full max-w-[300px] flex flex-col justify-center items-center p-4 mx-auto">
+                    <img class="h-[70px] w-[70px]" src="./images/icons/3d-glasss.png" alt="">
+                    <h2 class="text-xl mt-4 mb-2">3D MOVIES</h2>
+                    <p class="text-xl font-secondary text-justify">Film production is the part of the movie-making process that most people likely think of when film creation is brought up. </p>
+                </div>
+                <div class="border-2 border-black w-full max-w-[300px] flex flex-col justify-center items-center p-4 mx-auto">
+                    <img class="h-[70px] w-[70px]" src="./images/icons/film.png" alt="">
+                    <h2 class="text-xl mt-4 mb-2">Studio Production</h2>
+                    <p class="text-xl font-secondary text-justify">Film production is the part of the movie-making process that most people likely think of when film creation is brought up. </p>
+                </div>
+                <div class="border-2 border-black w-full max-w-[300px] flex flex-col justify-center items-center p-4 mx-auto">
+                    <img class="h-[70px] w-[70px]" src="./images/icons/director-chair.png" alt="">
+                    <h2 class="text-xl mt-4 mb-2">Film maker</h2>
+                    <p class="text-xl font-secondary text-justify">Film production is the part of the movie-making process that most people likely think of when film creation is brought up. </p>
+                </div>
+                <div class="border-2 border-black w-full max-w-[300px] flex flex-col justify-center items-center p-4 mx-auto">
+                    <img class="h-[70px] w-[70px]" src="./images/icons/theater.png" alt="">
+                    <h2 class="text-xl mt-4 mb-2">Drama Movies</h2>
+                    <p class="text-xl font-secondary text-justify">Film production is the part of the movie-making process that most people likely think of when film creation is brought up. </p>
+                </div>
+                <div class="border-2 border-black w-full max-w-[300px] flex flex-col justify-center items-center p-4 mx-auto">
+                    <img class="h-[70px] w-[70px]" src="./images/icons/rim.png" alt="">
+                    <h2 class="text-xl mt-4 mb-2">Rolling Production</h2>
+                    <p class="text-xl font-secondary text-justify">Film production is the part of the movie-making process that most people likely think of when film creation is brought up. </p>
+                </div>
+                <div class="border-2 border-black w-full max-w-[300px] flex flex-col justify-center items-center p-4 mx-auto">
+                    <img class="h-[70px] w-[70px]" src="./images/icons/cut-board.png" alt="">
+                    <h2 class="text-xl mt-4 mb-2">Movie Production</h2>
+                    <p class="text-xl font-secondary text-justify">Film production is the part of the movie-making process that most people likely think of when film creation is brought up. </p>
+                </div>
+                <div class="border-2 border-black w-full max-w-[300px] flex flex-col justify-center items-center p-4 mx-auto">
+                    <img class="h-[70px] w-[70px]" src="./images/icons/count-down.png" alt="">
+                    <h2 class="text-xl mt-4 mb-2">actor action</h2>
+                    <p class="text-xl font-secondary text-justify">Film production is the part of the movie-making process that most people likely think of when film creation is brought up. </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- footer section -->
+    <footer class="w-full bg-[url('./images/footer-bg.jpg')] bg-no-repeat bg-cover text-center mt-10">
+        <div class="w-full max-w-[1200px]  mx-auto font-primary p-16">
+            <h1 class="text-7xl text-white">jhaka naka production</h1>
+            <h2 class="text-xl text-white mt-3 mb-5">next level experience</h2>
+            <p class="text-base text-white font-secondary mb-24">Feugiat nibh litora semper proin nullam facilisi volutpat ex ullamcorper.</p>
+            <p class="text-xl text-white font-secondary">Copyright &copy; 2021 Jhaka Naka Production, All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
